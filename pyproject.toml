@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oagentrag"
+version = "0.1.0"
+description = "this is the local agentic rag for with reading docuements, and doing api calls to internet."
+authors = ["bhuvan454 <bhuvankumarchennoju@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
